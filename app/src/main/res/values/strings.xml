@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SimpleLocationApp</string>
+    <string name="app_name">AlmaNET GPS Location</string>
 
     <string name="pause">Pause Location Updates</string>
     <string name="resume">Resume Location Updates</string>
