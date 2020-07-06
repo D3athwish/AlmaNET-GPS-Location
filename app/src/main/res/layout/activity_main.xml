@@ -21,7 +21,8 @@
             android:text="GPS LOCATION"
             android:textSize="20sp" />
 
-        <Button
+
+        <Switch
             android:id="@+id/locationControllerGPS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
