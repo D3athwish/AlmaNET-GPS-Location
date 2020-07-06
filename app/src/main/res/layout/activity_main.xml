@@ -19,16 +19,16 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="GPS LOCATION"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/locationControllerGPS"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_below="@id/titleTextGPS"
-            android:text="@string/resume"
-            android:onClick="toggleGPSUpdates"/>
+            android:layout_centerHorizontal="true"
+            android:onClick="toggleGPSUpdates"
+            android:text="@string/resume" />
 
         <TextView
             android:id="@+id/longitudeTextGPS"
@@ -73,7 +73,8 @@
             android:layout_below="@id/latitudeValueGPS"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="@color/material_blue_grey_800"/>
+            android:background="@color/material_blue_grey_800"
+            android:keepScreenOn="false" />
 
     </RelativeLayout>
 </ScrollView>
